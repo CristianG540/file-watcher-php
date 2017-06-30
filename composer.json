@@ -1,0 +1,17 @@
+{
+    "name": "actualizador/inventario",
+    "description": "Pequena prueba para actualizar un inventario de prestashop mediante reactphp",
+    "authors": [
+        {
+            "name": "Cristian Gonzalez",
+            "email": "cristianneatproy@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "1.*",
+        "react/react": "*",
+        "mkraemer/react-inotify": "*",
+        "react/mysql": "*",
+        "j4mie/paris": "1.*"
+    }
+}
