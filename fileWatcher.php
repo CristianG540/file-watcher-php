@@ -10,9 +10,9 @@ use Monolog\Handler\StreamHandler;
  */
 function getNewConnection() {
     ORM::configure([
-        'connection_string' => 'mysql:host=localhost;dbname=prueba_mr_1',//'mysql:host=localhost;dbname=i3620810_ps2',
-        'username' => 'webmaster_mr',//'i3620810_ps2',
-        'password' => 'Webmaster2017#@'//'X^XnEwiJq~C8vbi1b*[16^*3'
+        'connection_string' => 'mysql:host=localhost;dbname=prueba_mr_1',
+        'username' => 'root',
+        'password' => ''
     ]);
 }
 
